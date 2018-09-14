@@ -1,0 +1,21 @@
+{
+  "name": "MERNtutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "concurrently": "^4.0.1",
+    "graphql-yoga": "^1.16.2",
+    "mongoose": "^5.2.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "client": "cd client & yarn start",
+    "server": "node index.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
